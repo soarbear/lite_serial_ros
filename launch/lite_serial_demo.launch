@@ -1,0 +1,7 @@
+<launch>
+	<!-- NODEの起動 -->
+	<node pkg="lite_serial_ros" type="lite_serial_node" name="lite_serial_node" output="screen" >
+		<!-- パラメータの取り組み -->
+		<rosparam command="load" file="$(find lite_serial_ros)/config/params.yaml" />
+	</node>
+</launch>
