@@ -18,7 +18,7 @@ USB connection: USB2.0 CDC virtual serial com port, Full Speed, 12Mbps
 lite_serial_ros(lite_serial_node) is a experiment package(node) to echo binary data with opposite device with CRC check.
 Refer to the following image of test result, another one in non-blocking mode based on pyserial lib writen in python as well.
 As you see, almost the same results were obtained. The Rx time in image includes reading/writing one of opposite device
-and reading one, CRC check of lite_serial_node. So, the Rx time measured(around 0.7-0.8ms) is longer tha Tx one(0.2-0.3ms).
+and reading one, CRC check of lite_serial_node. So, the Rx time measured(around 0.7-0.8ms) is longer than Tx one(0.2-0.3ms).
 
 The pycode(serial_echo_test.py) is uploaded to github as well. Feel free to fork and share.
 
