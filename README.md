@@ -21,8 +21,7 @@ lite_serial_ros(lite_serial_node) is a experiment package(node) to echo binary d
 At the same time, as a comparison we run another prgram with non-blocking mode based on pyserial library.
 As a result of the comparison, almost the same results were obtained. The Rx time includes reading/writing one of opposite device, reading one of lite_serial_ros, CRC check of lite_serial_node. So, the Rx time(around 0.7-0.8ms) is longer than Tx one(0.2-0.3ms).
 
-The pycode(serial_echo_test.py) is sechduled to uploaded to github as well. Feel free to fork and share.
-
+The python code(python_serial_test.py) is uploaded to github as well. 
 
 blocking mode, lite_serial_ros.jpg
 ![alt text](https://github.com/soarbear/lite_serial_ros/blob/main/image/lite_serial_ros.jpg)
@@ -30,5 +29,6 @@ blocking mode, lite_serial_ros.jpg
 non-blocking mode(in python), python_serial_test.jpg
 ![alt text](https://github.com/soarbear/lite_serial_ros/blob/main/image/python_serial_test.jpg)
 
-# Language
+# TODO
 More information in Japanese coming soon.
+Feel free to fork and share the repository.
