@@ -5,6 +5,7 @@ It can be used to transfer / receive binary data to / from opposite device being
 
 It works in non-canonical, raw, blocking mode. Tested on UBUNTU 18.04 & ROS melodic, environmwnt is listed as below.
 
+$ roslaunch lite_serial_ros lite_serial_demo.launch
 
 # Test Evironment
 ROS master(lite_serial implemented): Lenovo L560 (UBUNTU 18.04, ROS melodic implemented)
@@ -15,8 +16,6 @@ USB connection: USB2.0 (CDC virtual serial com port, Full Speed, 12Mbps)
 
 
 # Demonstration
-
-roslaunch lite_serial_ros lite_serial_demo.launch
 
 lite_serial_ros(lite_serial_node) is a experiment package(node) to echo binary data with opposite device, performing CRC check to Rx data.
 At the same time, as a comparison we run another prgram with non-blocking mode based on pyserial library.
