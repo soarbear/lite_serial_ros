@@ -31,4 +31,5 @@ non-blocking mode(in python), python_serial_test.jpg
 
 # TODO
 More information in Japanese coming soon.
+
 Feel free to fork and share the repository.
