@@ -5,9 +5,9 @@ lite_serial(lite_serial.hpp & lite_serial.cpp) can be used to transfer / receive
 
 $ roslaunch lite_serial_ros lite_serial_demo.launch
 
-lite_serial works in non-canonical, raw, blocking mode. Tested on UBUNTU 18.04 & ROS melodic, environmwnt is listed as below.
+lite_serial works in non-canonical, raw, blocking mode. Tested on UBUNTU 18.04 & ROS melodic, test environment is listed as below.
 
-# Test Evironment
+# Test Environment
 ROS master(lite_serial implemented): Lenovo L560 (UBUNTU 18.04, ROS melodic implemented)
 
 Opposite device: IMU (Microchip SMAG55 implemented, ROS unimplemented, non-ROS node)
