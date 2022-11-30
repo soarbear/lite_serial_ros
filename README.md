@@ -23,6 +23,8 @@ As a result of the comparison, almost the same results were obtained. The Rx tim
 
 The python code(python_serial_test.py) is uploaded to github as well. 
 
+<a href="https://github.com/soarbear/python_serial_test" target="_blank">https://github.com/soarbear/python_serial_test</a>
+
 blocking mode, lite_serial_ros.jpg
 ![alt text](https://github.com/soarbear/lite_serial_ros/blob/main/image/lite_serial_ros.jpg)
 
