@@ -1,11 +1,11 @@
 # Overview
-lite_serial is a light weight C++ serial library developed for ROS, or other systems collaborating with C++ complier (note: modification of termio needed ).
+lite_serial is a light weight C++ serial library developed for ROS, or other systems collaborating with C++ complier.
 
 lite_serial(lite_serial.hpp & lite_serial.cpp) can be used to transfer / receive binary data to / from opposite device being not ROS node. Using roslaunch as follows to run the lite_serial_node.
 
 $ roslaunch lite_serial_ros lite_serial_demo.launch
 
-lite_serial works in non-canonical, raw, blocking mode. Tested on UBUNTU 18.04 & ROS melodic, test environment is listed as below.
+lite_serial works in non-canonical, raw, blocking mode(note: for the other mode, modification of termio is needed). Tested on UBUNTU 18.04 & ROS melodic, test environment is listed as below.
 
 # Test Environment
 ROS master(lite_serial implemented): Lenovo L560 (UBUNTU 18.04, ROS melodic implemented)
